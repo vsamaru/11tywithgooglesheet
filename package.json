@@ -6,8 +6,8 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env ELEVENTY_ENV=prod eleventy --serve",
-    "build": "cross-env ELEVENTY_ENV=prod eleventy",
-    "seed": "cross-env ELEVENTY_ENV=prod eleventy"
+    "build": "cross-env ELEVENTY_ENV=seed eleventy",
+    "seed": "cross-env ELEVENTY_ENV=seed eleventy"
   },
 
   "dependencies": {
