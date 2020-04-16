@@ -5,7 +5,7 @@ const seed   = require('../../../utils/save-seed.js');
 // Once a googel sheet is "published to the web" we can access its JSON
 // via a URL of this form. We just need to pass in the ID of the sheet
 // which we can find in the URL of the document.
-const sheetID = "1DpRZ4IA6Xd_rd4sNnkpuTkp_-6KOEJJWS-VqZxw4oU0";
+const sheetID = "1t7oIp3TJdcJKky_GEczeAS-3KxJlH1NCVrzmN65CzWI";
 const googleSheetUrl = `https://spreadsheets.google.com/feeds/list/${sheetID}/od6/public/values?alt=json`;
 
 module.exports = () => {
