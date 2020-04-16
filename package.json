@@ -1,19 +1,15 @@
 {
   "name": "eleventy-google-sheets",
   "version": "0.0.1",
-  "description": "Using Eleventy to push data to site at build time",
-  "author": "David Atanda",
+
   "license": "MIT",
   "scripts": {
     "start": "npm run dev",
-    "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
+    "dev": "cross-env ELEVENTY_ENV=prod eleventy --serve",
     "build": "cross-env ELEVENTY_ENV=prod eleventy",
-    "seed": "cross-env ELEVENTY_ENV=seed eleventy"
+    "seed": "cross-env ELEVENTY_ENV=prod eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/atanda1/11tywithgooglesheet"
-  },
+
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",
     "autoprefixer": "^9.6.0",
